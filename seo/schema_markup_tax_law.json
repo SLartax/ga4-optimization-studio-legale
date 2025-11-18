@@ -1,0 +1,223 @@
+{
+  "organization_schema": {
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    "name": "Studio Legale Tributario Artax",
+    "description": "Studio legale specializzato in diritto tributario e consulenza fiscale per aziende e professionisti a Torino",
+    "url": "https://artax-studio.it",
+    "telephone": "+39-011-XXXXX",
+    "email": "info@artax-studio.it",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Via [Nome Via] XX",
+      "addressLocality": "Torino",
+      "addressRegion": "TO",
+      "postalCode": "10100",
+      "addressCountry": "IT"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/artax-studio",
+      "https://www.google.com/maps/place/artax"
+    ],
+    "areaServed": [
+      {
+        "@type": "City",
+        "name": "Torino"
+      },
+      {
+        "@type": "Region",
+        "name": "Piemonte"
+      },
+      {
+        "@type": "Country",
+        "name": "Italia"
+      }
+    ]
+  },
+  "local_business_schema": {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "#local-business",
+    "name": "Studio Legale Tributario Artax",
+    "image": "https://artax-studio.it/logo.png",
+    "telephone": "+39-011-XXXXX",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Via [Nome Via] XX",
+      "addressLocality": "Torino",
+      "addressRegion": "TO",
+      "postalCode": "10100",
+      "addressCountry": "IT"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      }
+    ],
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "45.0703",
+      "longitude": "7.6869"
+    },
+    "priceRange": "$$$",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "ratingCount": "42",
+      "bestRating": "5",
+      "worstRating": "1"
+    }
+  },
+  "professional_schema": {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "[Nome Avvocato]",
+    "jobTitle": "Avvocato Tributarista",
+    "url": "https://artax-studio.it/team/[nome]",
+    "description": "Specialista in diritto tributario con 10+ anni di esperienza",
+    "email": "[email]",
+    "telephone": "+39-011-XXXXX",
+    "workLocation": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Torino",
+        "addressCountry": "IT"
+      }
+    },
+    "knowsAbout": [
+      "Diritto tributario",
+      "Controversie tributarie",
+      "Pianificazione fiscale",
+      "Consulenza fiscale aziendale",
+      "Detrazioni fiscali"
+    ]
+  },
+  "service_schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Consulenza Tributaria",
+      "description": "Consulenza specializzata in materia tributaria per aziende e professionisti",
+      "provider": {
+        "@type": "LegalService",
+        "name": "Studio Legale Tributario Artax",
+        "url": "https://artax-studio.it"
+      },
+      "serviceArea": {
+        "@type": "City",
+        "name": "Torino"
+      },
+      "areaServed": "IT-TO",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "price": "su richiesta"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Controversie Tributarie",
+      "description": "Assistenza legale in controversie e ricorsi tributari",
+      "provider": {
+        "@type": "LegalService",
+        "name": "Studio Legale Tributario Artax",
+        "url": "https://artax-studio.it"
+      },
+      "serviceArea": {
+        "@type": "Region",
+        "name": "Piemonte"
+      }
+    }
+  ],
+  "faq_schema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Quali servizi offre uno studio legale tributario?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Uno studio legale tributario offre consulenza sulla pianificazione fiscale, gestione di controversie tributarie, assistenza nella redazione di ricorsi, e ottimizzazione fiscale per aziende e professionisti."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quanto costa una consulenza tributaria?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Il costo varia in base alla complessit\u00e0 della questione e al numero di ore necessarie. Contattaci per una valutazione personalizzata."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Come posso prenotare una consulenza?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Puoi contattarci telefonicamente, via email, o compilare il form di contatto sul nostro sito web. Fisseremo un appuntamento secondo la tua disponibilit\u00e0."
+        }
+      }
+    ]
+  },
+  "breadcrumb_schema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://artax-studio.it"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Servizi",
+        "item": "https://artax-studio.it/servizi"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Consulenza Tributaria",
+        "item": "https://artax-studio.it/servizi/consulenza-tributaria"
+      }
+    ]
+  },
+  "article_schema": {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "[Titolo articolo blog]",
+    "description": "[Meta description]",
+    "image": "[URL immagine]",
+    "datePublished": "2025-11-18T10:00:00Z",
+    "dateModified": "2025-11-18T10:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "[Nome Autore]",
+      "url": "https://artax-studio.it/team/[nome]"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Studio Legale Tributario Artax",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://artax-studio.it/logo.png"
+      }
+    }
+  },
+  "implementation_notes": {
+    "location": "Nel <head> di ogni pagina o in file separato",
+    "format": "JSON-LD",
+    "priority": "Alta - Migliora ranking locale e SERP rich snippet",
+    "tools_to_validate": [
+      "Google Structured Data Testing Tool",
+      "Schema.org Validator",
+      "Screaming Frog SEO Spider"
+    ]
+  }
+}
