@@ -1,0 +1,185 @@
+{
+  "analisi_competitiva": {
+    "data_analisi": "2025-11-18",
+    "target_keywords": "rottamazione quinquies, contenzioso esattoriale, ADER, INPS, ricorsi tributari",
+    "mercato": "Torino e Nord Italia"
+  },
+  "competitor_ranking": [
+    {
+      "rank": 1,
+      "studio": "SCGT - Studio di Consulenza Giuridico-Tributaria",
+      "url": "scgt.it",
+      "punti_forza": ["Brand recognition", "Content volume", "Local SEO"],
+      "punti_debolezza": ["Design datato", "Poca differenziazione"],
+      "keywords_rank": ["consulenza tributaria", "diritto tributario", "rottamazione"]
+    },
+    {
+      "rank": 2,
+      "studio": "LEXINTO Avvocati",
+      "url": "lexinto.it",
+      "punti_forza": ["Contenuti specializzati", "Schema markup"],
+      "punti_debolezza": ["Poca autorevolezza brand"],
+      "keywords_rank": ["avvocato tributario", "contenzioso"]
+    },
+    {
+      "rank": 3,
+      "studio": "Studio Legale e Tributario Veronese & Associati",
+      "url": "studioveronese.eu",
+      "punti_forza": ["Localizzazione", "Team size"],
+      "punti_debolezza": ["Poca visibilità online"],
+      "keywords_rank": ["studio legale tributario Veneto"]
+    },
+    {
+      "rank": 4,
+      "studio": "Studio Legale Tributario Sacchetto - Pollarolo",
+      "url": "studiosacchettopollarolo.it",
+      "punti_forza": ["Specializzazione settoriale"],
+      "punti_debolezza": ["Sito non aggiornato", "Niente GA4"],
+      "keywords_rank": ["tributario Torino"]
+    },
+    {
+      "rank": 5,
+      "studio": "Roberto Catani & Associati",
+      "url": "studiocatanieassociati.it",
+      "punti_forza": ["Reputazione locale"],
+      "punti_debolezza": ["Marketing minimo"],
+      "keywords_rank": ["diritto commerciale tributario"]
+    }
+  ],
+  "gap_analysis_artax": {
+    "nostri_vantaggi": [
+      "GA4 Integration avanzata (competitor NO)",
+      "Custom Events tracking per servizi (competitor NO)",
+      "Automated alerts & monitoring (competitor NO)",
+      "Python automation & API integration (competitor NO)",
+      "Schema markup JSON-LD (LEXINTO yes, altri NO)",
+      "SEO monitoring automatizzato (competitor NO)",
+      "Content strategy data-driven (competitor NO)"
+    ],
+    "opportunita_immediate": [
+      {
+        "opportunita": "Dominare keyword 'rottamazione quinquies 2025'",
+        "volume_ricerche": 890,
+        "difficolta": "medium",
+        "strategia": "Blog post 3500 parole + schema markup + backlink building",
+        "fattibilita": "ALTA - competitor deboli su questo",
+        "timeline": "2-3 settimane"
+      },
+      {
+        "opportunita": "Conquistare 'cartella esattoriale cosa fare'",
+        "volume_ricerche": 420,
+        "difficolta": "low",
+        "strategia": "Guida how-to + FAQ schema + video YouTube",
+        "fattibilita": "ALTISSIMA - nessuno lo ranking",
+        "timeline": "1 settimana"
+      },
+      {
+        "opportunita": "Long-tail keywords senza competizione diretta",
+        "esempi": ["calcolo convenienza rottamazione quinquies", "sospensiva cartella urgente", "opposizione pignoramento ADER"],
+        "volume_ricerche": 200-310,
+        "difficolta": "low",
+        "strategia": "Content cluster + internal linking",
+        "fattibilita": "ALTISSIMA",
+        "timeline": "2 settimane"
+      },
+      {
+        "opportunita": "Local SEO - 'avvocato tributario Torino'",
+        "volume_ricerche": 480,
+        "difficolta": "medium",
+        "strategia": "GMB optimization + local citations + local schema",
+        "fattibilita": "ALTA",
+        "timeline": "1-2 settimane"
+      }
+    ]
+  },
+  "strategia_offensiva_dettagliata": {
+    "fase_1_veloce_wins_2settimane": [
+      {
+        "azione": "Conquistare 'cartella esattoriale cosa fare' (420 ricerche)",
+        "steps": [
+          "1. Scrivere blog post how-to 2800 parole - specifico problema + soluzione",
+          "2. Implementare FAQ schema markup con 5-7 Q&A",
+          "3. Creare video YouTube 3-4 min step-by-step",
+          "4. Internal link da homepage + servizi correlati",
+          "5. Guest post su 3 siti legali/tributari",
+          "6. Social media push + backlink building"
+        ],
+        "tempo_investimento": "40 ore",
+        "risultato_atteso": "Top 3 entro 2-3 settimane"
+      },
+      {
+        "azione": "Creare content pillar 'rottamazione quinquies' (890 ricerche)",
+        "steps": [
+          "1. Main article 3500 parole (comprehensive guide)",
+          "2. 5 satellite articles long-tail:",
+          "   - 'Come aderire a rottamazione quinquies'",
+          "   - 'Calcolo convenienza rottamazione quinquies'",
+          "   - 'Differenza rottamazione bis ter quater quinquies'",
+          "   - 'Rottamazione quinquies 2025 scadenze'",
+          "   - 'Rottamazione quinquies rate e scaglioni'",
+          "3. Implementare schema markup (Article + FAQPage)",
+          "4. Internal linking strategico (pillar + satellites)",
+          "5. Backlink building da 10 siti thematically relevant"
+        ],
+        "tempo_investimento": "80 ore",
+        "risultato_atteso": "Top 1-2 entro 4-6 settimane"
+      },
+      {
+        "azione": "Ottimizzare Google My Business + Local SEO",
+        "steps": [
+          "1. Completare GMB con foto, video, posts",
+          "2. Aggiungere schema LocalBusiness",
+          "3. Creare local citations su 10 directory legali",
+          "4. Reviews strategy - chiedere a clienti di lasciare review",
+          "5. Localize homepage per 'Torino' + keywords locali"
+        ],
+        "tempo_investimento": "30 ore",
+        "risultato_atteso": "Top 3 local results entro 2 settimane"
+      }
+    ],
+    "fase_2_medium_term_6settimane": [
+      {
+        "azione": "Content cluster completo 'contenzioso esattoriale'",
+        "articoli": 8,
+        "parole_totali": 15000,
+        "tempo_investimento": "120 ore",
+        "risultato_atteso": "Dominare SERP + traffic organico +300%"
+      },
+      {
+        "azione": "Link building campaign - 30 backlink da siti rilevanti",
+        "strategie": ["Guest posting", "Broken link building", "Resource page links", "Skyscraper technique"],
+        "tempo_investimento": "60 ore",
+        "risultato_atteso": "Domain Authority +5-10 punti"
+      },
+      {
+        "azione": "Video content strategy - YouTube channel",
+        "contenuti": ["How-to rottamazione", "Cartella esattoriale guida", "INPS ricorsi", "Sospensiva urgente"],
+        "tempo_investimento": "80 ore",
+        "risultato_atteso": "1000+ subscribers + backlink da YouTube"
+      }
+    ]
+  },
+  "differenziali_competitivi_artax": {
+    "tecnologia": "GA4 + Python automation + API integration (nessun competitor)",
+    "data_driven_content": "Content strategy basata su search data + competitor analysis",
+    "automation": "Monitoring automatizzato + alert system + reporting",
+    "specializzazione": "Rottamazione Quinquies 2025 + servizi specifici non coperti da altri",
+    "expertise_dimostrabile": "Case study + risultati reali + testimonianze clienti"
+  },
+  "tracking_system": {
+    "metriche_mensili": {
+      "ranking_keywords": "Tracciare posizione top 20 competitor keywords",
+      "organic_traffic": "Confrontare traffico vs competitor",
+      "backlink_growth": "Monitorare nuovi backlink referral",
+      "local_visibility": "Google Local Pack ranking",
+      "content_engagement": "GA4 metrics - dwell time, bounce rate, conversioni"
+    },
+    "tools_required": [
+      "SEMrush/Ahrefs - keyword tracking + backlink monitoring",
+      "Google Search Console - own tracking",
+      "GA4 - conversion tracking + behavior",
+      "Rank Tracker - automated daily ranking checks",
+      "Screaming Frog - technical SEO audits monthly"
+    ]
+  }
+}
