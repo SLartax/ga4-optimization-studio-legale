@@ -1,0 +1,157 @@
+{
+  "meta_info": {
+    "specialization": "Diritto Tributario",
+    "location": "Torino - Nord Italia",
+    "target_audience": ["PMI", "Imprenditori", "Professionisti", "Aziende"],
+    "created_date": "2025-11-18"
+  },
+  "primary_keywords": {
+    "avvocato_tributario": {
+      "keyword": "avvocato tributario Torino",
+      "search_volume": 480,
+      "difficulty": "medium",
+      "intent": "service",
+      "pages": ["/", "/chi-siamo", "/servizi/consulenza-tributaria"]
+    },
+    "diritto_tributario": {
+      "keyword": "diritto tributario Torino",
+      "search_volume": 320,
+      "difficulty": "medium",
+      "intent": "service",
+      "pages": ["/servizi/diritto-tributario"]
+    },
+    "consulenza_fiscale": {
+      "keyword": "consulenza fiscale aziendale",
+      "search_volume": 640,
+      "difficulty": "high",
+      "intent": "service",
+      "pages": ["/servizi/consulenza-fiscale"]
+    },
+    "tax_dispute": {
+      "keyword": "controversie tributarie",
+      "search_volume": 210,
+      "difficulty": "medium",
+      "intent": "service",
+      "pages": ["/servizi/controversie-tributarie"]
+    }
+  },
+  "long_tail_keywords": [
+    {
+      "keyword": "come calcolare le imposte aziendali",
+      "search_volume": 120,
+      "difficulty": "low",
+      "intent": "informational",
+      "content_type": "blog_post"
+    },
+    {
+      "keyword": "riduzione tasse per PMI 2025",
+      "search_volume": 340,
+      "difficulty": "medium",
+      "intent": "informational",
+      "content_type": "blog_post"
+    },
+    {
+      "keyword": "deduzione fiscale spese aziendali",
+      "search_volume": 280,
+      "difficulty": "low",
+      "intent": "informational",
+      "content_type": "guide"
+    },
+    {
+      "keyword": "regime forfetario vs regime ordinario",
+      "search_volume": 190,
+      "difficulty": "low",
+      "intent": "informational",
+      "content_type": "comparison_post"
+    },
+    {
+      "keyword": "ricorso amministrativo tasse",
+      "search_volume": 95,
+      "difficulty": "low",
+      "intent": "informational",
+      "content_type": "guide"
+    },
+    {
+      "keyword": "pianificazione fiscale per liberi professionisti",
+      "search_volume": 150,
+      "difficulty": "medium",
+      "intent": "informational",
+      "content_type": "blog_post"
+    }
+  ],
+  "local_keywords": {
+    "torino": [
+      "avvocato tributario Torino",
+      "consulenza fiscale Torino",
+      "studio legale tributario Torino",
+      "controversie tributarie Torino"
+    ],
+    "nord_italia": [
+      "avvocato tributario Piemonte",
+      "consulenza fiscale Milano",
+      "diritto tributario Nord Italia",
+      "studio legale tributario Bologna"
+    ]
+  },
+  "competitor_keywords": [
+    {
+      "competitor": "Studio Legale Generale",
+      "keywords": ["diritto tributario", "consulenza fiscale", "controversie tributarie"]
+    },
+    {
+      "competitor": "CAF/Associazioni",
+      "keywords": ["consulenza fiscale low cost", "dichiarazione dei redditi", "pratiche fiscali"]
+    }
+  ],
+  "content_opportunities": [
+    {
+      "topic": "Guida pratica alle detrazioni fiscali 2025",
+      "keyword_focus": "detrazioni fiscali",
+      "format": "comprehensive_guide",
+      "target_keyword_count": 3000,
+      "internal_links": ["/servizi/consulenza-fiscale", "/chi-siamo"]
+    },
+    {
+      "topic": "Come gestire una controversia tributaria",
+      "keyword_focus": "controversie tributarie",
+      "format": "step_by_step_guide",
+      "target_keyword_count": 2500,
+      "internal_links": ["/servizi/controversie-tributarie"]
+    },
+    {
+      "topic": "Pianificazione fiscale per startup tech",
+      "keyword_focus": "pianificazione fiscale",
+      "format": "case_study",
+      "target_keyword_count": 2000,
+      "internal_links": ["/servizi/pianificazione-fiscale"]
+    },
+    {
+      "topic": "Regime forfetario: vantaggi e svantaggi",
+      "keyword_focus": "regime forfetario",
+      "format": "comparison_post",
+      "target_keyword_count": 1800,
+      "internal_links": ["/servizi/consulenza-fiscale"]
+    }
+  ],
+  "search_intent_mapping": {
+    "navigational": [
+      "studio legale tributario Artax",
+      "avvocato tributario Torino contatti"
+    ],
+    "informational": [
+      "come pagare meno tasse",
+      "deduzione fiscale spese aziendali",
+      "pianificazione fiscale aziendale"
+    ],
+    "commercial": [
+      "miglior consulenza fiscale Torino",
+      "studio legale tributario prezzi",
+      "consulenza fiscale economica"
+    ],
+    "transactional": [
+      "prenota consulenza tributaria",
+      "chiedi parere avvocato tributario",
+      "assistenza controversia tributaria"
+    ]
+  }
+}
