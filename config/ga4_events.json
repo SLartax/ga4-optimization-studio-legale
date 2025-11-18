@@ -1,0 +1,69 @@
+{
+  "events": {
+    "form_contact_submitted": {
+      "description": "Compilazione e invio del form di contatti",
+      "parameters": {
+        "service_type": {
+          "description": "Tipo di servizio richiesto",
+          "enum": ["consulenza", "vertenza", "contratti", "altro"]
+        },
+        "user_segment": {
+          "description": "Segmento utente",
+          "enum": ["enterprise", "individual", "startup"]
+        },
+        "form_completion_time": {
+          "description": "Tempo di compilazione in secondi",
+          "type": "number"
+        }
+      }
+    },
+    "phone_call_initiated": {
+      "description": "Chiamata telefonica avviata",
+      "parameters": {
+        "phone_type": {
+          "description": "Tipo di dispositivo",
+          "enum": ["mobile", "desktop"]
+        },
+        "call_source": {
+          "description": "Pagina da cui è avvenuta la chiamata",
+          "enum": ["homepage", "pagina_servizi", "pagina_contatti", "header"]
+        }
+      }
+    },
+    "cta_download": {
+      "description": "Download di documento/materiale",
+      "parameters": {
+        "document_type": {
+          "description": "Tipo di documento",
+          "enum": ["pdf_servizi", "privacy", "portfolio", "brochure"]
+        },
+        "page_type": {
+          "description": "Tipo di pagina",
+          "enum": ["homepage", "servizi", "about", "blog"]
+        }
+      }
+    },
+    "service_page_view": {
+      "description": "Visualizzazione pagina di un servizio specifico",
+      "parameters": {
+        "service_name": {
+          "description": "Nome del servizio",
+          "enum": ["diritto_civile", "commerciale", "tributario", "amministrativo"]
+        }
+      }
+    },
+    "blog_engagement": {
+      "description": "Engagement con articoli blog",
+      "parameters": {
+        "scroll_depth": {
+          "description": "Profondità dello scroll (percentuale)",
+          "enum": ["25", "50", "75", "100"]
+        },
+        "time_on_page": {
+          "description": "Tempo sulla pagina in secondi",
+          "type": "number"
+        }
+      }
+    }
+  }
+}
