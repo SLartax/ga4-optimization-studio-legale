@@ -1,0 +1,88 @@
+{
+  "goals": {
+    "contact_form_submission": {
+      "name": "Contact Form Submission",
+      "description": "Utente ha compilato il form di contatti",
+      "type": "event",
+      "event_name": "form_contact_submitted",
+      "value": 50
+    },
+    "phone_call_initiation": {
+      "name": "Phone Call Initiated",
+      "description": "Utente ha avviato una chiamata telefonica",
+      "type": "event",
+      "event_name": "phone_call_initiated",
+      "value": 75
+    },
+    "service_document_download": {
+      "name": "Service Document Download",
+      "description": "Utente ha scaricato documentazione su servizi",
+      "type": "event",
+      "event_name": "cta_download",
+      "value": 30
+    },
+    "service_page_engagement": {
+      "name": "Service Page Engagement",
+      "description": "Utente ha visualizzato pagina di un servizio specifico",
+      "type": "event",
+      "event_name": "service_page_view",
+      "value": 20
+    },
+    "blog_post_read": {
+      "name": "Blog Post Read",
+      "description": "Utente ha letto completamente un articolo blog",
+      "type": "event",
+      "event_name": "blog_engagement",
+      "event_params": {
+        "scroll_depth": "100"
+      },
+      "value": 15
+    },
+    "high_intent_visitor": {
+      "name": "High Intent Visitor",
+      "description": "Visitatore con alta probabilità di conversione (tempo >180s + >3 pagine)",
+      "type": "session",
+      "conditions": {
+        "session_duration": {
+          "operator": "greater_than",
+          "value": 180
+        },
+        "pages_per_session": {
+          "operator": "greater_than_or_equal",
+          "value": 3
+        }
+      },
+      "value": 25
+    }
+  },
+  "conversion_funnel": {
+    "name": "Legal Services Conversion Funnel",
+    "steps": [
+      {
+        "step": 1,
+        "name": "Homepage View",
+        "page_path": "/"
+      },
+      {
+        "step": 2,
+        "name": "Services Page View",
+        "page_path": "/servizi"
+      },
+      {
+        "step": 3,
+        "name": "Service Detail View",
+        "page_path": "/servizi/*"
+      },
+      {
+        "step": 4,
+        "name": "Contact Page View",
+        "page_path": "/contatti"
+      },
+      {
+        "step": 5,
+        "name": "Form Submission",
+        "event_name": "form_contact_submitted"
+      }
+    ]
+  }
+}
