@@ -1,0 +1,149 @@
+{
+  "utm_parameters": {
+    "campaigns": {
+      "linkedin_content": {
+        "utm_source": "linkedin",
+        "utm_medium": "social",
+        "utm_campaign": "legal_services_awareness",
+        "utm_content": "post_novembre",
+        "description": "Contenuti su LinkedIn - Novembre 2025"
+      },
+      "newsletter_monthly": {
+        "utm_source": "newsletter",
+        "utm_medium": "email",
+        "utm_campaign": "monthly_updates",
+        "utm_content": "novembre_2025",
+        "description": "Newsletter mensile"
+      },
+      "legal_directories": {
+        "utm_source": "[directory_name]",
+        "utm_medium": "directory",
+        "utm_campaign": "legal_directories_listing",
+        "utm_content": "profile_link",
+        "description": "Link da directory legali online"
+      },
+      "partner_collaboration": {
+        "utm_source": "[partner_name]",
+        "utm_medium": "referral",
+        "utm_campaign": "partnership_2025",
+        "utm_content": "collaborazione",
+        "description": "Link da partner/collaboratori"
+      },
+      "organic_blog": {
+        "utm_source": "organic_search",
+        "utm_medium": "search",
+        "utm_campaign": "seo_traffic",
+        "utm_content": "blog_post",
+        "utm_term": "[keyword]",
+        "description": "Traffico organico da blog"
+      }
+    }
+  },
+  "segments": {
+    "high_value_legal_leads": {
+      "name": "High-Value Legal Leads",
+      "conditions": [
+        {
+          "metric": "event_name",
+          "operator": "equals",
+          "value": "form_contact_submitted"
+        },
+        {
+          "metric": "scroll_depth",
+          "operator": "greater_than_or_equal",
+          "value": "75"
+        },
+        {
+          "metric": "session_duration",
+          "operator": "greater_than",
+          "value": "180"
+        }
+      ]
+    },
+    "service_interested_users": {
+      "name": "Service Interested",
+      "conditions": [
+        {
+          "metric": "page_path",
+          "operator": "contains",
+          "value": "/servizi"
+        },
+        {
+          "metric": "pages_per_session",
+          "operator": "greater_than_or_equal",
+          "value": "3"
+        },
+        {
+          "metric": "event_name",
+          "operator": "equals",
+          "value": "contact_cta_clicks"
+        }
+      ]
+    },
+    "local_traffic_north_italy": {
+      "name": "Local Traffic (Torino/Nord Italia)",
+      "conditions": [
+        {
+          "metric": "country",
+          "operator": "equals",
+          "value": "Italy"
+        },
+        {
+          "metric": "city",
+          "operator": "matches_regex",
+          "value": "(Torino|Milano|Genova|Alessandria|Novara|Asti)"
+        }
+      ]
+    },
+    "mobile_high_intent": {
+      "name": "Mobile High-Intent",
+      "conditions": [
+        {
+          "metric": "device_category",
+          "operator": "equals",
+          "value": "mobile"
+        },
+        {
+          "metric": "event_name",
+          "operator": "equals",
+          "value": "phone_call_initiated"
+        }
+      ]
+    },
+    "organic_search_quality": {
+      "name": "Organic Search Quality",
+      "conditions": [
+        {
+          "metric": "source",
+          "operator": "equals",
+          "value": "google"
+        },
+        {
+          "metric": "medium",
+          "operator": "equals",
+          "value": "organic"
+        },
+        {
+          "metric": "bounce_rate",
+          "operator": "less_than",
+          "value": "40"
+        },
+        {
+          "metric": "pages_per_session",
+          "operator": "greater_than_or_equal",
+          "value": "2"
+        }
+      ]
+    },
+    "returning_clients": {
+      "name": "Returning Clients",
+      "conditions": [
+        {
+          "metric": "session_type",
+          "operator": "equals",
+          "value": "returning_user"
+        }
+      ]
+    }
+  }
+}
