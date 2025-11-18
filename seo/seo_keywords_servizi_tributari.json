@@ -1,0 +1,208 @@
+{
+  "meta_info": {
+    "specializzazione": "Diritto Tributario Specializzato",
+    "ubicazione": "Torino - Piemonte",
+    "servizi": ["Rottamazione Quinquies", "Contenzioso Esattoriale", "ADER", "INPS", "Agenzia Entrate", "Consulenza Fiscale"],
+    "data_aggiornamento": "2025-11-18"
+  },
+  "keywords_servizi_primari": {
+    "rottamazione_quinquies": {
+      "keyword": "rottamazione quinquies 2025",
+      "volume_ricerche": 890,
+      "difficolta": "medium",
+      "intent": "service",
+      "pagine_target": ["/servizi/rottamazione-quinquies", "/"],
+      "descrizione": "Rottamazione Quinquies - Condono debiti tributari 2025"
+    },
+    "contenzioso_esattoriale": {
+      "keyword": "contenzioso esattoriale Torino",
+      "volume_ricerche": 420,
+      "difficolta": "medium",
+      "intent": "service",
+      "pagine_target": ["/servizi/contenzioso-esattoriale"],
+      "descrizione": "Contenzioso Esattoriale - Difesa cartelle esattoriali"
+    },
+    "ricorso_ader": {
+      "keyword": "ricorso cartella esattoriale ADER",
+      "volume_ricerche": 340,
+      "difficolta": "low",
+      "intent": "service",
+      "pagine_target": ["/servizi/ader"],
+      "descrizione": "Ricorso ADER - Impugnazione atti Agenzia Riscossione"
+    },
+    "contenzioso_inps": {
+      "keyword": "contenzioso INPS contributi",
+      "volume_ricerche": 310,
+      "difficolta": "low",
+      "intent": "service",
+      "pagine_target": ["/servizi/inps"],
+      "descrizione": "Contenzioso INPS - Ricorsi su contributi previdenziali"
+    },
+    "ricorso_accertamento": {
+      "keyword": "ricorso commissione tributaria Torino",
+      "volume_ricerche": 520,
+      "difficolta": "medium",
+      "intent": "service",
+      "pagine_target": ["/servizi/ricorsi-tributari"],
+      "descrizione": "Ricorso Commissione Tributaria - Impugnazione accertamenti"
+    }
+  },
+  "keywords_long_tail_contenuti": [
+    {
+      "keyword": "come aderire a rottamazione quinquies",
+      "volume": 280,
+      "difficolta": "low",
+      "intent": "informational",
+      "tipo_contenuto": "guida_pratica",
+      "argomento": "Guida passo-passo adesione Rottamazione Quinquies"
+    },
+    {
+      "keyword": "cartella esattoriale cosa fare",
+      "volume": 420,
+      "difficolta": "low",
+      "intent": "informational",
+      "tipo_contenuto": "guida_pratica",
+      "argomento": "Cosa fare se ricevi una cartella esattoriale"
+    },
+    {
+      "keyword": "differenza rottamazione bis ter quinquies",
+      "volume": 190,
+      "difficolta": "low",
+      "intent": "informational",
+      "tipo_contenuto": "confronto_post",
+      "argomento": "Confronto tra rottamazioni: Bis, Ter, Quater, Quinquies"
+    },
+    {
+      "keyword": "sospensione cartella esattoriale ricorso",
+      "volume": 310,
+      "difficolta": "low",
+      "intent": "informational",
+      "tipo_contenuto": "guida_pratica",
+      "argomento": "Come ottenere sospensiva cartella esattoriale"
+    },
+    {
+      "keyword": "calcolo convenienza rottamazione quinquies",
+      "volume": 240,
+      "difficolta": "low",
+      "intent": "informational",
+      "tipo_contenuto": "calcolatore_interattivo",
+      "argomento": "Calcolo convenienza economica adesione Rottamazione"
+    },
+    {
+      "keyword": "rateizzazione debito tributario ADER",
+      "volume": 210,
+      "difficolta": "low",
+      "intent": "informational",
+      "tipo_contenuto": "guida_pratica",
+      "argomento": "Richiesta rateizzazione cartelle esattoriali"
+    },
+    {
+      "keyword": "opposizione pignoramento esattoriale",
+      "volume": 185,
+      "difficolta": "low",
+      "intent": "informational",
+      "tipo_contenuto": "guida_pratica",
+      "argomento": "Come contrastare pignoramenti da esattore"
+    },
+    {
+      "keyword": "avviso bonario Agenzia Entrate cosa fare",
+      "volume": 290,
+      "difficolta": "low",
+      "intent": "informational",
+      "tipo_contenuto": "guida_pratica",
+      "argomento": "Ricorso contro avviso bonario"
+    }
+  ],
+  "keywords_locali": {
+    "torino": [
+      "rottamazione quinquies Torino",
+      "avvocato tributario Torino",
+      "contenzioso esattoriale Torino",
+      "ricorso ADER Torino",
+      "avvocato INPS Torino"
+    ],
+    "nord_italia": [
+      "rottamazione quinquies Piemonte",
+      "contenzioso tributario Milano",
+      "ricorso cartella esattoriale Bologna",
+      "avvocato tributario Alessandria",
+      "consulenza fiscale Novara"
+    ]
+  },
+  "keywords_competitor": [
+    {
+      "competitor": "Studi legali generici",
+      "keywords": ["diritto tributario", "consulenza fiscale", "controversie tributarie"],
+      "nostro_vantaggio": "Specializzazione su Rottamazione + Contenzioso"
+    },
+    {
+      "competitor": "CAF/Associazioni",
+      "keywords": ["dichiarazione redditi", "730", "IVA"],
+      "nostro_vantaggio": "Rappresentanza legale e ricorsi in tribunale"
+    },
+    {
+      "competitor": "Commercialisti",
+      "keywords": ["consulenza fiscale aziendale", "bilancio"],
+      "nostro_vantaggio": "Difesa contenziosa specializzata"
+    }
+  ],
+  "opportunita_contenuto_immediato": [
+    {
+      "titolo": "Rottamazione Quinquies 2025: Guida Completa all'Adesione",
+      "parole_chiave_focus": ["rottamazione quinquies", "adesione", "scadenza"],
+      "formato": "guida_pratica_completa",
+      "parole_target": 3500,
+      "link_interni": ["/servizi/rottamazione-quinquies", "/contatti"],
+      "urgenza": "ALTA - scadenza temporale"
+    },
+    {
+      "titolo": "Ricevuta Cartella Esattoriale? Ecco Cosa Fare Subito",
+      "parole_chiave_focus": ["cartella esattoriale", "cosa fare", "ricorso"],
+      "formato": "guida_pratica_step_by_step",
+      "parole_target": 2800,
+      "link_interni": ["/servizi/contenzioso-esattoriale", "/servizi/sospensive"],
+      "urgenza": "ALTA - problema immediato"
+    },
+    {
+      "titolo": "Contenzioso INPS: Come Impugnare gli Avvisi di Addebito",
+      "parole_chiave_focus": ["INPS", "contributi", "ricorso"],
+      "formato": "case_study_plus_guida",
+      "parole_target": 2400,
+      "link_interni": ["/servizi/inps", "/case-study"],
+      "urgenza": "MEDIA"
+    },
+    {
+      "titolo": "Rottamazione Bis vs Ter vs Quater vs Quinquies: Quale Scegliere?",
+      "parole_chiave_focus": ["rottamazione confronto", "differenze", "conviene"],
+      "formato": "articolo_confronto_dettagliato",
+      "parole_target": 2200,
+      "link_interni": ["/servizi/rottamazione-quinquies"],
+      "urgenza": "MEDIA"
+    },
+    {
+      "titolo": "Sospensiva d'Urgenza per Cartella Esattoriale: Quando e Come Richiedere",
+      "parole_chiave_focus": ["sospensiva", "urgente", "cartella esattoriale"],
+      "formato": "guida_legale_specializzata",
+      "parole_target": 2000,
+      "link_interni": ["/servizi/sospensive-urgenti"],
+      "urgenza": "ALTA"
+    }
+  ],
+  "estratto_servizi_chiave": {
+    "rottamazione_quinquies": "Assistenza completa per adesione Rottamazione Quinquies 2025: verifica estratto di ruolo, calcolo convenienza, invio istanza, gestione rate e scaglionamenti",
+    "contenzioso_esattoriale": "Difesa completa in controversie esattoriali: cartelle esattoriali, estratti di ruolo, preavvisi di fermo, ipoteche, impugnazioni ADER",
+    "ader": "Impugnazione atti ADER, opposizione pignoramenti, richieste sospensive, istanze di annullamento, ricorsi amministrativi",
+    "inps": "Ricorsi su avvisi di addebito INPS, contributi previdenziali, verifica posizioni debitorie, ricorsi amministrativi e giudiziali",
+    "agenzia_entrate": "Assistenza su avvisi di accertamento, sanzioni, controlli automatizzati, avvisi bonari, ricorsi Commissione Tributaria",
+    "consulenza_fiscale": "Consulenza fiscale per aziende e professionisti, ottimizzazione fiscale, pianificazione tributaria, sospensive urgenti, rateizzazioni, tutela giudiziale"
+  },
+  "integration_ga4": {
+    "custom_event_servizio": "service_inquiry_click",
+    "parametri": {
+      "service_type": ["rottamazione_quinquies", "contenzioso_esattoriale", "ader", "inps", "agenzia_entrate", "consulenza_fiscale"],
+      "urgency_level": ["immediato", "entro_mese", "pianificato"],
+      "page_source": "servizi_tributari"
+    },
+    "dimensioni_tracking": "service_category, urgency_indicator, page_section"
+  }
+}
