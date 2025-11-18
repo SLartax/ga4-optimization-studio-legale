@@ -248,3 +248,178 @@ Private - Studio Legale Artax
 
 **Last Updated:** November 18, 2025
 **Version:** 1.0.0
+
+
+## 📊 SEO OPTIMIZATION - DIRITTO TRIBUTARIO
+
+### Overview
+Il sistema include un'ottimizzazione SEO completa specializzata per studio legale tributario con focus su Torino e Nord Italia.
+
+### Componenti SEO
+
+#### 1. **Keyword Research** (`seo/seo_tax_law_keywords.json`)
+
+**Keywords Primari (Traffico Alto):**
+- `avvocato tributario Torino` (480 ricerche/mese) → Pagina servizi
+- `consulenza fiscale aziendale` (640 ricerche/mese) → Alt difficoltà
+- `diritto tributario Torino` (320 ricerche/mese) → Homepage
+- `controversie tributarie` (210 ricerche/mese) → Servizi specifici
+
+**Long-Tail Keywords (Facili - Content Opportunities):**
+- `come calcolare le imposte aziendali` → Blog post
+- `riduzione tasse per PMI 2025` → Guida pratica
+- `deduzione fiscale spese aziendali` → Guide informative
+- `regime forfetario vs regime ordinario` → Confronto post
+
+**Local SEO:**
+- Torino: 4 keywords ottimizzati
+- Nord Italia: Milano, Genova, Bologna
+
+#### 2. **Schema Markup** (`seo/schema_markup_tax_law.json`)
+
+Implementa 6 tipi di schema JSON-LD:
+
+1. **LegalService Schema** - Informazioni studio
+2. **LocalBusiness Schema** - Localizzazione e orari
+3. **Professional Schema** - Profili avvocati
+4. **Service Schema** - Descrizione servizi
+5. **FAQPage Schema** - Domande frequenti
+6. **BreadcrumbList Schema** - Navigazione
+
+**Implementazione:**
+```html
+<!-- Nel <head> di ogni pagina -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "name": "Studio Legale Tributario Artax",
+  "description": "Specializzato in diritto tributario...",
+  "areaServed": ["Torino", "Piemonte", "Italia"]
+}
+</script>
+```
+
+#### 3. **SEO Monitoring Script** (`scripts/seo_monitoring.py`)
+
+Automatizza:
+- Analisi keyword performance
+- Estrazione content opportunities
+- Local SEO analysis
+- Competitor benchmarking
+- Content strategy calculation
+
+**Utilizzo:**
+```bash
+python scripts/seo_monitoring.py
+```
+
+Output:
+- Keyword ranking per priorità
+- Content calendar con 4+ articoli
+- Local SEO oppurtunità
+- Strategy export in JSON
+
+### Content Strategy (Auto-Generata)
+
+| Tipo Contenuto | Keyword Focus | Num Articoli | Priorità |
+|---|---|---|---|
+| Blog Posts | Informational | 3 | HIGH |
+| Guides | How-to | 1 | HIGH |
+| Comparison | Regime fiscali | 1 | MEDIUM |
+| Case Study | Pianificazione | Secondo metriche | MEDIUM |
+
+### Integration con GA4
+
+**Custom Events per SEO Tracking:**
+```json
+{
+  "event_name": "keyword_ranking_tracked",
+  "parameters": {
+    "keyword": "avvocato tributario Torino",
+    "ranking_position": 3,
+    "search_volume": 480,
+    "keyword_difficulty": "medium"
+  }
+}
+```
+
+**Metriche GA4 da Monitorare:**
+- Organic sessions per keyword
+- Conversion rate da search
+- Bounce rate per landing page
+- Time on page per servizio
+- Ranking position vs traffico
+
+### Local SEO Optimization
+
+✅ **Torino Focus:**
+- Google My Business completato
+- Schema markup locale
+- Keywords geo-targetizzati
+- Citations locali (directory legali)
+- Local link building
+
+✅ **Nord Italia Expansion:**
+- Milano: `avvocato tributario Milano`
+- Genova: `studio legale tributario Genova`
+- Bologna: `consulenza fiscale Bologna`
+
+### Implementation Checklist
+
+- [ ] Implementare Schema Markup JSON-LD
+- [ ] Aggiungere keywords primari in meta description
+- [ ] Creare 4+ articoli blog con long-tail keywords
+- [ ] Lanciare seo_monitoring.py per estratto strategy
+- [ ] Configurare GA4 event tracking per keywords
+- [ ] Aggiornare Google My Business con schema
+- [ ] Creare internal linking tra servizi
+- [ ] Monitorare ranking keywords mensili
+- [ ] A/B test titoli e meta descriptions
+- [ ] Implementare sitemap.xml con priorità
+
+### SEO Quick Wins
+
+1. **Title Tags Ottimizzati:**
+   - `Avvocato Tributario Torino | Consulenza Fiscale Specializzata | Artax`
+   - `Controversie Tributarie | Ricorsi Amministrativi | Diritto Tributario`
+
+2. **Meta Descriptions:**
+   - 155-160 caratteri
+   - Include keyword primario
+   - Call-to-action (Contatta / Scopri)
+
+3. **H1-H3 Structure:**
+   - H1: Keyword principale + localizzazione
+   - H2: Intent secondari (problemi che risolvi)
+   - H3: Long-tail keywords
+
+4. **Internal Linking:**
+   - Homepage → Servizi tributari
+   - Servizi → Blog correlati
+   - Blog → Case study
+   - Tutto → Contact CTA
+
+### KPI SEO da Tracciare
+
+| Metrica | Target | Frequenza |
+|---------|--------|----------|
+| Ranking Position | Top 3 per keyword primari | Settimanale |
+| Organic Sessions | +50% MoM | Giornaliera |
+| Organic CTR | >3% | Settimanale |
+| Average Position | <5 per 10 keyword | Mensile |
+| Indexed Pages | >100 | Mensile |
+
+### Tools Consigliati
+
+- **Google Search Console** - Ranking tracking
+- **Screaming Frog** - Audit tecnico SEO
+- **SEMrush/Ahrefs** - Competitor analysis
+- **Google My Business** - Local SEO
+- **Semrush Academy** - Learning
+
+---
+
+**SEO System Version:** 1.0
+**Last Updated:** 2025-11-18
+**Specialization:** Diritto Tributario IT
