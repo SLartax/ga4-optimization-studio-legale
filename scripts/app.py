@@ -6,14 +6,7 @@ import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
 import plotly.express as px
-from datetime import datetime
-import sys
-import os
-
-# Aggiungi il path dello script
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-
-from trading_system_metrics import TradingSystemMetrics
+from datetime import datetime, timedelta
 
 # Configurazione pagina Streamlit
 st.set_page_config(
@@ -41,11 +34,48 @@ st.sidebar.title("⚙️ Configurazione")
 refresh_data = st.sidebar.checkbox("Aggiorna Dati", value=True)
 aggiungi_annotazioni = st.sidebar.checkbox("Mostra Annotazioni", value=True)
 
-# Carica dati
+# GENERATE MOCK DATA
 @st.cache_data(ttl=3600)
 def load_trading_data():
-    system = TradingSystemMetrics()
-    equity_df, metrics, trade_dist = system.export_data()
+    # Genera dati di equity curve simulati
+    np.random.seed(42)
+    dates = pd.date_range(start='2023-01-01', end='2025-01-19', freq='D')
+    
+    # Simula equity curve con trend positivo
+    returns = np.random.normal(0.0005, 0.015, len(dates))
+    equity = 10000 * np.exp(np.cumsum(returns))
+    daily_returns = np.diff(returns) * 100  # In percentuale
+    daily_returns = np.append(daily_returns, daily_returns[-1])
+    
+    equity_df = pd.DataFrame({
+        'Date': dates,
+        'Equity': equity,
+        'Daily_Return': daily_returns
+    })
+    
+    # Metriche
+    total_trades = 1529
+    winning_trades = int(total_trades * 0.6625)
+    losing_trades = total_trades - winning_trades
+    
+    metrics = {
+        'Total_Trades': total_trades,
+        'Winrate': '66.25%',
+        'Total_Return': '+1,161.78%',
+        'CAGR': '17.43%',
+        'Avg_Pct_Trade': '0.1674%',
+        'Avg_Points': '37.23',
+        'Max_Drawdown': '-12.45%',
+        'Sharpe_Ratio': '1.85',
+        'Latest_Equity': f'${equity[-1]:,.2f}',
+        'Signal_Tomorrow': 'FLAT'
+    }
+    
+    trade_dist = {
+        'Winning_Trades': winning_trades,
+        'Losing_Trades': losing_trades
+    }
+    
     return equity_df, metrics, trade_dist
 
 equity_df, metrics, trade_dist = load_trading_data()
