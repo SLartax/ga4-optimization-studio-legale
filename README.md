@@ -423,3 +423,88 @@ Output:
 **SEO System Version:** 1.0
 **Last Updated:** 2025-11-18
 **Specialization:** Diritto Tributario IT
+
+---
+
+## 🕐 GA4 FORECAST SCHEDULER - Automazione Previsioni
+
+### Panoramica
+
+Il sistema include l'**automazione del forecast GA4 con aggiornamento giornaliero alle 17:30 CET**.
+
+**Feature:**
+- ✓ Scheduler con APScheduler (background task)
+- ✓ Aggiornamento automatico ogni giorno a 17:30
+- ✓ Estrazione dati elaborati da GA4 (7 giorni rolling)
+- ✓ Previsione conversioni e sessioni per il giorno dopo
+- ✓ Retry automatico (max 3 tentativi)
+- ✓ Salvataggio forecast in JSON con timestamp
+- ✓ Log centralizzato con rotazione
+- ✓ Alert email (opzionale)
+- ✓ Timezone-aware (Europe/Rome)
+
+### Quick Start
+
+#### 1. Installazione dipendenze
+
+```bash
+pip install -r requirements-forecast.txt
+```
+
+#### 2. Setup credenziali GA4
+
+```bash
+export GOOGLE_APPLICATION_CREDENTIALS="$(pwd)/credentials.json"
+export GA4_PROPERTY_ID="123456789"
+export ADMIN_EMAIL="admin@artax-studio.it"
+```
+
+#### 3. Avvio scheduler (localhost test)
+
+```bash
+python scripts/ga4_forecast_scheduler.py
+```
+
+#### 4. Production (systemd Linux)
+
+```bash
+sudo systemctl enable ga4-forecast.service
+sudo systemctl start ga4-forecast.service
+sudo systemctl status ga4-forecast.service
+```
+
+### Documentazione Completa
+
+Per la guida di setup dettagliata (systemd, cron, troubleshooting):
+
+**📄 [Forecast Setup Guide](scripts/forecast_setup_guide.md)**
+
+### File di Progetto
+
+- **`scripts/ga4_forecast_scheduler.py`** - Script principale scheduler
+- **`scripts/forecast_setup_guide.md`** - Guida setup completa
+- **`requirements-forecast.txt`** - Dipendenze Python
+
+### Verifica Aggiornamento a 17:30
+
+```bash
+# Monitora log in tempo reale
+tail -f logs/forecast_scheduler.log
+
+# Vedi prossimo run schedulato
+grep "NEXT_RUN" logs/forecast_scheduler.log
+
+# Verifica forecast generati
+ls -lh forecasts/
+```
+
+### KPI Monitorati
+
+- Conversioni predette (media 7 giorni)
+- Sessioni predette (media 7 giorni)
+- Confidence level del forecast
+- Numero data points utilizzati
+
+**Versione Scheduler:** 1.0  
+**Ultimo Update:** 2025-11-19
+
