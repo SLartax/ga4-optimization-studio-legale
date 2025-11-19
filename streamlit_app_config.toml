@@ -1,0 +1,37 @@
+# Streamlit Cloud Deployment Configuration
+# File di configurazione per il deployment della trading dashboard su Streamlit Cloud
+
+[streamlit]
+# Cache di sessione per performance
+sessionState = true
+
+# Configuration details
+mainFile = "scripts/trading_dashboard.py"
+repository = "https://github.com/SLartax/ga4-optimization-studio-legale"
+branch = "main"
+
+[theme]
+primaryColor = "#1f77b4"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+font = "sans serif"
+
+[client]
+toolbarMode = "viewer"
+showErrorDetails = true
+
+[server]
+headless = true
+port = 8501
+maxUploadSize = 200
+enableXsrfProtection = true
+enableCORS = false
+
+[logger]
+level = "info"
+messageFormat = "%(asctime)s %(message)s"
+
+# Deployment info
+# Deploy command: streamlit run scripts/trading_dashboard.py
+# URL: https://share.streamlit.io/SLartax/ga4-optimization-studio-legale/<app-id>
