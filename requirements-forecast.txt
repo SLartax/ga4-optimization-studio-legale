@@ -1,0 +1,32 @@
+# GA4 Forecast Scheduler - Python Dependencies
+# Install with: pip install -r requirements-forecast.txt
+
+# Core Scheduler
+apscheduler>=3.10.4
+pytz>=2024.1
+
+# Google Analytics API
+google-analytics-data>=0.20.0
+google-cloud-logging>=3.10.0
+
+# Data Processing
+pandas>=1.5.3
+numpy>=1.24.0
+scipy>=1.10.0
+
+# HTTP & API
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Configuration & Environment
+python-dotenv>=1.0.0
+
+# Logging & Monitoring
+loguru>=0.7.0  # Optional: advanced logging
+
+# Data Format
+tabulate>=0.9.0  # For pretty printing logs
+
+# Optional: Email Notifications
+secure-smtplib>=0.1.1
+email-validator>=2.0.0
